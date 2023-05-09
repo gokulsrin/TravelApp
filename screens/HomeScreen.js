@@ -29,7 +29,7 @@ const HomeScreen = () => {
             <Text className="text-[#3C6072] text-[42px]">Enjoy the trip with</Text>
             <Text className="text-[#00BCC9] text-[38px] font-bold">Good Moments</Text>
             <Text className="text-[#3C6072] text-base">
-                Cum cum cum 
+                Interesting text here. 
             </Text>
         </View>
 

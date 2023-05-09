@@ -6,7 +6,7 @@ import { SafeAreaView } from 'react-native';
 import { Attractions, Avatar, Hotels, Restaurants } from '../assets';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import MenuContainer from '../components/MenuContainer';
-import ItemCardContainer from '../components/itemCardContainer';
+// import ItemCardContainer from '../components/itemCardContainer';
 import { FontAwesome } from '@expo/vector-icons';
 
 const Discover = () => {
@@ -81,7 +81,7 @@ const Discover = () => {
                 />
             </View>
 
-            <View>
+            {/* <View>
                 <View className = "flex-row items-center justify-between px-4 mt-8">
                     <Text className="text-[#2C7379] text-[28px] font-bold"> Top tips</Text>
                     <TouchableOpacity className="flex-row items-center justify-center space-x-2">
@@ -94,7 +94,7 @@ const Discover = () => {
                     <ItemCardContainer key={"101"} imageSrc={"https://media.istockphoto.com/id/1322277517/photo/wild-grass-in-the-mountains-at-sunset.jpg?s=612x612&w=0&k=20&c=6mItwwFFGqKNKEAzv0mv6TaxhLN3zSE43bWmFN--J5w="} title={"Sample1"} location="Doha"/>
                     <ItemCardContainer key={"102"} imageSrc={"https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80"} title={"Sample2"} location="Doha"/>
                 </View>
-            </View>
+            </View> */}
         </ScrollView>
     </SafeAreaView>
   )

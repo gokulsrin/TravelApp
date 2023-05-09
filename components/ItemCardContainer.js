@@ -1,7 +1,7 @@
 import { View, Text, TouchableOpacity, Image } from 'react-native'
 import React from 'react'
 
-const itemCardContainer = ({imageSrc, title, location}) => {
+const ItemCardContainer = ({imageSrc, title, location}) => {
   return (
     <TouchableOpacity className="rounded-md border border-gray-300 space-y-2 px-3 py-2 shadow-md bg-white w-[182px] my-2">
         <Image
@@ -12,4 +12,4 @@ const itemCardContainer = ({imageSrc, title, location}) => {
   )
 }
 
-export default itemCardContainer
+export default ItemCardContainer
